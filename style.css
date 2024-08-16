@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.cont1{
+    background-image: url(https://wallpapers.com/images/hd/top-of-mountain-hiking-ssuknid9vlyemcl4.jpg);
+    height: 100vh;
+}
+
+
+.cont1 nav{
+    height: 100px;
+}
+
+.cont1text{
+   
+    width: 220px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cont1text span{
+   
+    font-family: 'Brush Script MT', cursive; 
+}
+
+
+
+.crs {
+    height: 150vh;
+    background-color: antiquewhite;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .subcont1{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+  }
+
+  .gridex{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    
+  }
+
+  .gridex img{
+    width: 200px;
+height: 200px;  }
+
+
+.tour-card {
+    position: relative;
+    border: solid 2px black;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .tour-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .tour-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .tour-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0.8); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .tour-card:hover .tour-overlay {
+    opacity: 1;
+  }
+  
+  .tour-overlay h5 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .tour-overlay .btn {
+    background-color: #28a745;
+    border: none;
+    font-size: 1rem;
+  }
+  
+
+  .fetext{
+
+    text-align: center;
+
+
+  }
+
+
+
+
+.testimonials h2 {
+    font-family: 'Brush Script MT', cursive; 
+    color: #0000ff; 
+    position: relative;
+  }
+  
+  .testimonials h2::before {
+    content: '\f0c0';
+    font-family: 'FontAwesome';
+    font-size: 40px;
+    color: yellow;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card-title {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+
+
+
+footer {
+    background-color: darkblue;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .text-warning {
+    color: #f39c12 !important; 
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
